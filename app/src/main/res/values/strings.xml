@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Phineas</string>
+    <string name="motto"><![CDATA[For Fast & Efficient\nGas Delivery Services]]></string>
+    <string name="usertype1">Customer</string>
+    <string name="usertype2">Product Manager</string>
+    <string name="usertype3">Finance Manager</string>
+    <string name="usertype4">Distribution MAnager</string>
+    <string name="usertype5">Driver</string>
+</resources>

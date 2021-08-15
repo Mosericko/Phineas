@@ -1,0 +1,2 @@
+rootProject.name = "Phineas"
+include ':app'

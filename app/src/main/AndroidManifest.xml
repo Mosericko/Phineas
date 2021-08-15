@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mdevs.phineas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/GeneralTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".financemanager.PendingOrders" />
+        <activity android:name=".customer.MyOrders" />
+        <activity android:name=".productmanager.ArchivedProducts" />
+        <activity android:name=".customer.MenuOptions" />
+        <activity android:name=".customer.CheckOut" />
+        <activity android:name=".customer.Cart" />
+        <activity android:name=".customer.CategoryItems" />
+        <activity
+            android:name=".productmanager.AddProduct"
+            android:theme="@style/UserRegistration" />
+        <activity android:name=".loginregistration.UserProfile" />
+        <activity android:name=".productmanager.ProductActivity" />
+        <activity android:name=".financemanager.FinanceActivity" />
+        <activity android:name=".distributionmanager.DistributionActivity" />
+        <activity android:name=".driver.DriverActivity" />
+        <activity android:name=".customer.CustomerActivity" />
+        <activity
+            android:name=".loginregistration.Location"
+            android:theme="@style/UserRegistration" />
+        <activity
+            android:name=".loginregistration.Register"
+            android:theme="@style/UserRegistration" />
+        <activity android:name=".loginregistration.Login" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:theme="@style/MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
